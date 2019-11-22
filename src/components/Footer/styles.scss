@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #194617;
+    color: whitesmoke;
+}
+
+.btn-primary {
+    color: #194617;
+    background-color: rgb(168, 230, 168);
+    border-color: #194617;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+a {
+    color: rgb(168, 230, 168);
+    text-decoration: none;
+    background-color: transparent;
+}

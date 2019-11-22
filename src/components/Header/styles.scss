@@ -1,0 +1,25 @@
+.Brand{
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 70px;
+}
+
+.container-fluid{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    background-color: #194617;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}

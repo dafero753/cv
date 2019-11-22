@@ -1,0 +1,110 @@
+.insiders{
+    height: 100vh;
+    top: 85px;
+}
+
+.me{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+    z-index: 1;    
+}
+
+.cont{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    position: absolute; 
+    right: 30px; 
+    bottom: 0px;
+}
+
+.text{
+    width: 50%;
+    height: 70vh;
+    position: absolute; 
+    left: 120px;
+    top: 50px;
+    z-index: 2;
+}
+
+.mine{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.that{
+    display: flex;
+    flex-direction: column;
+}
+
+.this{
+    display: flex;
+}
+
+.hi{
+    font-size: 90px;
+    height: auto;
+}
+
+.my{
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.da{
+    font-size: 70px;
+    color: rgb(68, 134, 68);
+}
+
+.ro{
+    font-size: 70px;
+}
+
+.and{
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.yea{
+    font-size: 30px;
+}
+
+.col{
+    font-size: 60px;
+}
+
+.full{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 134, 68);
+}
+
+@media (max-width: 768px){
+    .yea, .my, .and, .ro{
+        font-size: 20px;
+    }
+
+    .col{
+        font-size: 30px;
+    }
+
+    .hi, .da, .full{
+        font-size: 40px;
+    }
+}
