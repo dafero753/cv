@@ -12,9 +12,9 @@ export default class Footer extends React.Component{
     render(){
         return(    
         <footer className="footer">
-            <Button href="/home">Go back</Button>
+            <Button href="#bar">Go back</Button>
             <h6>
-                Create by: Daniel Fernando Romero Rodriguez
+                Created by: Daniel Fernando Romero Rodriguez
             </h6>
             <h6>
                 Github: <a href="https://github.com/dafero753" target="_blank">Daniel´s github</a>

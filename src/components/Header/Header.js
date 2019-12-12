@@ -13,12 +13,10 @@ export default class Header extends React.Component {
 
     render() {
         return (
-            <div class="fixed-top">
                 <Navbar id="bar" className="bar" variant="dark">
                     <img className="imagen" src={Img} alt="photo"/>
                     <Menu />
                 </Navbar>
-            </div>
         );
     }
 }

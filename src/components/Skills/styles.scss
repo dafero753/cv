@@ -3,6 +3,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.hard{
+    border-right: 1px solid black;
+}
+
+.h1{
+    color: rgb(24, 97, 24);
+}
+
+.h11{
+    color: rgb(141, 187, 141);
 }
 
 .one, .two{
@@ -20,6 +34,17 @@
 }
 
 .image{
-    border: 1px solid rgb(68, 134, 68);
     border-radius: 50%;
+    width: 30%;
+    height: auto;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: rgb(83, 78, 78);
+    border: 1px solid rgba(0,0,0,.125);
+    color: whitesmoke;
 }

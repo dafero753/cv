@@ -39,7 +39,7 @@ export default class Me extends React.Component{
                             </div>
                         </div>
                         <div className="full">
-                            FullStack developer
+                            FullStack Developer
                         </div>
                     </div>
                 </div>

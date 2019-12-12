@@ -1,3 +1,53 @@
 .work{
     background-color: rgb(37, 36, 36);
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.im{
+    height: 100%;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.boxi{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+@media(max-width: 768px){
+    .im{
+        height: 50%;
+    }
+    .pi{
+        border-bottom: lightcoral;
+    }
+
+    .h2{
+        font-size: 4vw;
+    }
+
+    .h3{
+        font-size: 3vw; 
+    }
+    .h6{
+        font-size: 2vw;
+    }
+}
+
+.pi{
+    border-bottom: 1px solid green;
+}
+.w{
+    color: rgb(69, 129, 69);
 }

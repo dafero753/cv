@@ -1,4 +1,30 @@
 .contacts{
     background-color: whitesmoke;
-    height: 80vh;
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .card{
+        width: 350px;
+        height: 400px;
+    }
+}
+
+.h8{
+    color: rgb(78, 141, 78);
+}
+
+.p-3 {
+    /*padding: 1rem!important;*/
 }
